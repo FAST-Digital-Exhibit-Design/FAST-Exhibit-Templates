@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<QuizSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Question name="MarsRover" type="text">
+        <Options>
+            <Option name="One" slot="1" />
+	    <Option name="Six" slot="2" />
+            <Option name="Four" slot="3" />
+	    <Option name="Zero" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="4" />
+        </Answers>
+    </Question>
+ <Question name="ThinAtmosphere" type="video">
+        <Options>
+            <Option name="True" slot="1" />
+	    <Option name="False" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="1" />
+        </Answers>
+    </Question>
+<Question name="FlyDesign" type="text">
+        <Options>
+            <Option name="Balloons" slot="1" />
+	    <Option name="LongBlades" slot="2" />
+            <Option name="RocketBoosters" slot="3" />
+	    <Option name="LargeEngine" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="2" />
+        </Answers>
+    </Question>
+<Question name="PushAir" type="text">
+        <Options>
+            <Option name="Down" slot="1" />
+	    <Option name="Up" slot="2" />
+            <Option name="Clockwise" slot="3" />
+	    <Option name="CounterClockwise" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="1" />
+        </Answers>
+    </Question>
+<Question name="BandedRocks" type="image">
+        <Options>
+            <Option name="SiteA" slot="1" />
+	    <Option name="SiteB" slot="2" />
+            <Option name="SiteC" slot="3" />
+	    <Option name="SiteD" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="3" />
+        </Answers>
+    </Question>
+<Question name="PlanetName" type="video">
+        <Options>
+            <Option name="RedPlanet" slot="1" />
+	    <Option name="Ares" slot="2" />
+            <Option name="BlueberryWorld" slot="3" />
+	    <Option name="Mars" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="3" />
+        </Answers>
+    </Question>
+<Question name="MarsWater" type="text">
+        <Options>
+            <Option name="ImpactCraters" slot="1" />
+	    <Option name="ClaySediments" slot="2" />
+            <Option name="DormantVolcanoes" slot="3" />
+	    <Option name="DustDevils" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="2" />
+        </Answers>
+    </Question>
+<Question name="NotWater" type="text">
+        <Options>
+            <Option name="GoldDesposits" slot="1" />
+	    <Option name="Silica" slot="2" />
+            <Option name="OpalDeposits" slot="3" />
+	    <Option name="HematiteBlueberries" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="1" />
+        </Answers>
+    </Question>
+<Question name="RockRipples" type="image">
+        <Options>
+            <Option name="SiteA" slot="1" />
+	    <Option name="SiteB" slot="2" />
+            <Option name="SiteC" slot="3" />
+	    <Option name="SiteD" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="2" />
+        </Answers>
+    </Question>
+<Question name="MarsTravel" type="text">
+        <Options>
+            <Option name="True" slot="1" />
+	    <Option name="False" slot="4" />
+        </Options>
+        <Answers>
+            <Answer slot="4" />
+        </Answers>
+    </Question>
+</QuizSettings>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<ActivitySettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <activityId>QuizShowTable</activityId>
+  <logSettings>
+    <isLogging>true</isLogging>
+    <numberOfLogs>10</numberOfLogs>
+  </logSettings>
+  <assetSettings>
+    <languages>
+      <string>EN</string>
+    </languages>
+    <prefixFileName>#Skin-#Language-</prefixFileName>
+    <suffixFileName />
+    <prefixErrorMessage />
+    <replacementErrorMessage />
+    <suffixErrorMessage />
+  </assetSettings>
+  <displaySettings>
+    <numberOfDisplays>1</numberOfDisplays>
+    <prefixErrorMessage />
+    <replacementErrorMessage />
+    <suffixErrorMessage />
+  </displaySettings>
+  <whiteScreenSettings>
+    <onScreenMessage />
+    <durationMinutes>0</durationMinutes>
+    <isTouchInput>false</isTouchInput>
+    <isMouseInput>false</isMouseInput>
+    <isAxisInput>false</isAxisInput>
+    <isKeypressInput>true</isKeypressInput>
+    <isSerialInput>false</isSerialInput>
+    <serialInputCount>10</serialInputCount>
+    <isUdpInput>false</isUdpInput>
+    <udpInputCount>1</udpInputCount>
+  </whiteScreenSettings>
+  <alignmentSettings>
+    <AlignmentRectTransformSettings name="Player 1">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Player 3">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Player 2">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="ProgressBar">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Player 4">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+  </alignmentSettings>
+</ActivitySettings>
