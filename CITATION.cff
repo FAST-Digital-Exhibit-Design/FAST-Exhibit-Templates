@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: FAST Exhibit Templates
+message: >-
+  If you reference this software in a publication, please
+  cite it as below.
+type: software
+authors:
+  - name: Museum of Science, Boston
+    website: 'https://www.mos.org'
+repository-code: >-
+  https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates
+abstract: >-
+  Three exhibit experience templates that allow museum
+  professionals to create their own FAST tables without having to start from
+  the beginning.
+license: MIT

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<ActivitySettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <activityId>ObjectInvestigationTable</activityId>
+  <logSettings>
+    <isLogging>true</isLogging>
+    <numberOfLogs>10</numberOfLogs>
+  </logSettings>
+  <assetSettings>
+    <languages>
+      <string>EN</string>
+      <string>ES</string>
+    </languages>
+    <prefixFileName>#Skin-#Language-</prefixFileName>
+    <suffixFileName />
+    <prefixErrorMessage />
+    <replacementErrorMessage />
+    <suffixErrorMessage />
+  </assetSettings>
+  <displaySettings>
+    <numberOfDisplays>1</numberOfDisplays>
+    <prefixErrorMessage />
+    <replacementErrorMessage />
+    <suffixErrorMessage />
+  </displaySettings>
+  <whiteScreenSettings>
+    <onScreenMessage />
+    <durationMinutes>0</durationMinutes>
+    <isTouchInput>false</isTouchInput>
+    <isMouseInput>false</isMouseInput>
+    <isAxisInput>false</isAxisInput>
+    <isKeypressInput>false</isKeypressInput>
+    <isSerialInput>false</isSerialInput>
+    <serialInputCount>10</serialInputCount>
+    <isUdpInput>false</isUdpInput>
+    <udpInputCount>1</udpInputCount>
+  </whiteScreenSettings>
+  <udpConnectionSettings id="Computer Vision">
+    <localReceivePort>60000</localReceivePort>
+    <localSendPort>60001</localSendPort>
+    <remoteIpAddress>127.0.0.1</remoteIpAddress>
+    <remotePort>50000</remotePort>
+    <prefixErrorMessage />
+    <replacementErrorMessage />
+    <suffixErrorMessage />
+  </udpConnectionSettings>
+  <alignmentSettings>
+    <AlignmentRectTransformSettings name="Scanner-Progress.png">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Tracking Area">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="1500" y="1000" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Projector Area Guide">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="1920" y="1200" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Table Area Guide">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="1500" y="900" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Camera Area Guide">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="1500" y="1000" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Tray-Spotlight.png">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Scanner-Spotlight.png">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Controls Area Guide">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="1800" y="1200" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Scanner Target">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+  </alignmentSettings>
+</ActivitySettings>

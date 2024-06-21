@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ObjectSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Object name="SharkTooth" />
+    <Object name="Conglomerate" />
+    <Object name="Scoria" />
+    <Object name="Granite" />
+    <Object name="Marble" />
+    <Object name="Gneiss" />
+    <MaximumNumberOfGuesses>6</MaximumNumberOfGuesses>
+</ObjectSettings>

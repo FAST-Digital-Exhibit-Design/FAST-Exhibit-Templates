@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<NodeSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <PixelNode name="FenwayPark" x="580" y="920" />
+    <GeoNode name="RapaNuiMoai" latitude="-27.12601" longitude="-109.277031" />
+    <GeoNode name="SanFelipeDeBarajasCastle" latitude="10.4225" longitude="-75.53927" />
+    <GeoNode name="MachuPicchu" latitude="-13.22633" longitude="-72.49732" />
+    <GeoNode name="TeatroColon" latitude="-34.60249" longitude="-58.39508" />
+    <GeoNode name="StatueOfChristTheRedeemer" latitude="-22.95191" longitude="-43.21048" />
+    <GeoNode name="Stonehenge" latitude="51.17888" longitude="-1.82621" />
+    <GeoNode name="StMarksPlaza" latitude="45.43416" longitude="12.33847" />
+    <GeoNode name="OdesaNationalAcademicOperaAndBalletTheatre" latitude="46.48547" longitude="30.74117" />
+    <GeoNode name="MedinaOfMarrakesh" latitude="31.63153" longitude="-7.9896" />
+    <GeoNode name="SankoreMadrasah" latitude="16.77572" longitude="-3.00725" />
+    <GeoNode name="KirstenboschNationalBotanicalGarden" latitude="-33.9875" longitude="18.43272" />
+    <GeoNode name="PyramidsOfGiza" latitude="29.97923" longitude="31.1342" />
+    <GeoNode name="WailingWall" latitude="31.77671" longitude="35.2345" />
+    <GeoNode name="GreatMosqueOfKilwa" latitude="-8.95914" longitude="39.49828" />
+    <GeoNode name="Shibam" latitude="15.92125" longitude="48.63638" />
+    <GeoNode name="WinterPalace" latitude="59.91564" longitude="30.3336239" />
+    <GeoNode name="MakliNecropolis" latitude="24.75185" longitude="67.898" />
+    <GeoNode name="MountEverest" latitude="27.98812" longitude="86.92497" />
+    <GeoNode name="AltaiPetroglyphs" latitude="48.39832" longitude="89.66259" />
+    <GeoNode name="HoiAnAncientTown" latitude="15.88005" longitude="108.338043" />
+    <GeoNode name="ForbiddenCity" latitude="39.9168" longitude="116.397163" />
+    <GeoNode name="RiceTerracesOfThePhilippineCordilleras" latitude="16.93531" longitude="121.134789" />
+    <GeoNode name="NikkoToshoguShrine" latitude="36.7578" longitude="139.59935" />
+    <GeoNode name="Uluru" latitude="-25.34442" longitude="131.03688" />
+    <GeoNode name="GreatBarrierReef" latitude="-18.28706" longitude="147.699188" />
+    <GeoNode name="WaitangiTreatyGrounds" latitude="-35.26775" longitude="174.080719" />
+    <GeoNode name="SriSivaSubramaniyaTemple" latitude="-17.80738" longitude="177.4151" />
+    <GeoNode name="PenguinPostOffice" latitude="-64.82518" longitude="-63.49354" />
+    <GeoNode name="Sermermiut" latitude="69.2025" longitude="-51.12312" />
+    <GeoNode name="LakeLouise" latitude="51.42537" longitude="-116.177254" />
+    <GeoNode name="CliffPalace" latitude="37.16692" longitude="-108.473213" />
+    <GeoNode name="Zocalo" latitude="19.4326" longitude="-99.1332" />
+    <GeoNode name="KennedySpaceCenter" latitude="28.57287" longitude="-80.64898" />
+    <GeoNode name="StatueOfLiberty" latitude="40.68924" longitude="-74.0445" />
+</NodeSettings>
