@@ -3,6 +3,69 @@ A FAST digital exhibit experience that allows for exploration of real
 objects or physical models, identification or classification, and
 learning about a variety of items.
 
+## System Requirements
+
+### Runtime Requirements
+
+* Microsoft Windows 10 or 11
+* [FAST Computer Vision](https://github.com/FAST-Digital-Exhibit-Design/FAST-Computer-Vision)
+
+### Build Requirements
+
+* Unity Editor 2022.3.0 or later
+
+## Installation
+
+1. Download the most recent version of the application from 
+[Releases](https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates/releases)
+2. Extract the ZIP file where you want the application installed
+3. Navigate to the **Application** folder
+4. Open **FAST-Object-Investigation.exe** to run the application
+
+## Documentation
+
+### Changing Activity Settings
+
+1. Navigate to the **Assets** folder
+2. Open *SkinName*-**settings.xml**, such as **Geology-settings.xml**
+3. For information about each setting, see 
+[FAST SDK Reference Documentation](https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK/class_f_a_s_t_1_1_base_settings.html)
+
+### Changing Tangible Object Settings
+
+1. Navigate to the **Assets** folder
+2. Open *SkinName*-**Object-settings.xml**, such as **Geology-Object-settings.xml**
+3. The `<Object>` settings define the Tangible Objects. The name must 
+match the same name used in asset files. The top-down order of each 
+`<Object>` will determine the order they are used in the activity as a 
+teaser.
+4. The `<MaximumNumberOfGuesses>` setting defines the number of times a 
+teaser can be guessed incorrectly before it is skipped and the activity 
+moves on to the next teaser.
+
+### Changing Marker Tracking Settings
+
+1. Navigate to the **Assets** folder
+2. Open *SkinName*-**MarkerTracking-settings.xml**, such as **Geology-MarkerTracking-settings.xml**
+3. The `<UdpConnectionId>` setting defines the name of the UDP 
+connection to use. Don't change this value unless you are editing the 
+source code because the application is compiled with a UDP connection 
+set to this name. The default value should be 
+`<UdpConnectionId>Computer Vision</UdpConnectionId>`.
+4. The `<MaximumNumberOfMarkers>` setting defines the maximum number of 
+number of unique IDs in the marker set that can possibly be detected. 
+This value should match the *Dictionary Size* parameter in the 
+[FAST Computer Vision](https://github.com/FAST-Digital-Exhibit-Design/FAST-Computer-Vision/blob/main/fast-computer-vision/doc/UserManual.md) 
+application.
+
+### Adding a New Skin
+
+1. Navigate to the **Assets** folder
+2. Copy the folder containing the assets for the new skin
+3. Navigate to the **root** folder where the application is installed
+4. Open **config.xml** and change `<skin>Geology</skin>` to the name of 
+your new skin
+
 ## Notices
 
 Copyright (C) 2024 Museum of Science, Boston
@@ -25,14 +88,18 @@ MIT License for more details.
 You should have received a copy of the MIT License along with this 
 software. If not, see <https://opensource.org/license/MIT>.
 
+`SPDX-License-Identifier: MIT`
+
 ### Media Assets
 
-The media assets (images, videos, audio, etc.) included in this release 
-are EXCLUDED from this software's MIT License and are only permitted for 
-use with this software. The media assets cannot be modified, resold, 
-repurposed, or separated from this software in any way. 
+The media assets (images, videos, audio, etc.) included in a release 
+package (compiled executable of this software with assets) are EXCLUDED 
+from this software's MIT License and are only permitted for use with 
+this software. The media assets cannot be modified, resold, repurposed, 
+or separated from the compiled executable of this software in any way. 
 
 ## End User License Agreement
-By downloading or installing this release, you agree to abide by the 
-usage requirements of this software and the media assets that are 
-included.
+
+By downloading or installing a release package (compiled executable of 
+this software with assets), you agree to abide by the usage requirements 
+of this software and the media assets that are included.
