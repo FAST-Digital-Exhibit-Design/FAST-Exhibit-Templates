@@ -35,10 +35,10 @@ learning about a variety of items.
 
 1. Navigate to the **Assets** folder
 2. Open *SkinName*-**Object-settings.xml**, such as **Geology-Object-settings.xml**
-3. The `<Object>` settings define the Tangible Objects. The name must 
-match the same name used in asset files. The top-down order of each 
-`<Object>` will determine the order they are used in the activity as a 
-teaser.
+3. The `<Object>` settings define the Tangible Objects. The top-down 
+order of each `<Object>` will determine the order they are used in the 
+activity as a teaser.
+    - The `name` must match the same name used in asset files.
 4. The `<MaximumNumberOfGuesses>` setting defines the number of times a 
 teaser can be guessed incorrectly before it is skipped and the activity 
 moves on to the next teaser.
@@ -96,7 +96,29 @@ The media assets (images, videos, audio, etc.) included in a release
 package (compiled executable of this software with assets) are EXCLUDED 
 from this software's MIT License and are only permitted for use with 
 this software. The media assets cannot be modified, resold, repurposed, 
-or separated from the compiled executable of this software in any way. 
+or separated from the compiled executable of this software in any way.
+
+The following media were used to create the Geology skin media assets 
+included in a release package:
+
+| Description | Media Type | Attribution/Credit | 
+| --- | --- | --- |
+| Volcanic Eruption, Scoria | Video | Stock media from iStock.com/o-vandeginste |
+| Marble Quarry, Marble | Video | Stock media from iStock.com/Panksvatouny |
+| Gneiss Shore, Gneiss | Image | Stock media from iStock.com/davejpr |
+| Glacier, Conglomerate | Video | Stock media from iStock.com/Yiming_Li |
+| Shark, Fossil | Video | Stock media from iStock.com/VIDEODIVE |
+| Volcano, Scoria | Audio | Stock media from SoundIdeasCom/Pond5 |
+| Rock Shift, Granite | Audio | Stock media from SoundMorph/Pond5 |
+| Whoosh, Marble | Audio | Stock media from Elysium/Pond5 |
+| Ground Movement, Gneiss | Audio | Stock media from SoundIdeasCom/Pond5 |
+| Squeeze, Gneiss| Audio | Stock media from TS_Sound/Pond5 |
+| Arctic Wind, Conglomerate | Audio | Stock media from Soundexperience/Pond5 |
+| Ocean Water, Fossil | Audio | Stock media from SoundIdeasCom/Pond5 |
+| Approve/Correct | Audio | Stock media from agcnf_media/Pond5 |
+| Diabase dikes (animation), Granite | Video | Media from National Park Service |
+| Metamorphic rock formation, Gneiss | Video | Media from SciShow Kids |
+| Glacier animation, Conglomerate | Video | Media from SciShow Kids |
 
 ## End User License Agreement
 
