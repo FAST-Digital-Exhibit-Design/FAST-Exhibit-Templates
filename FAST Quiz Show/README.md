@@ -4,6 +4,64 @@ A FAST digital exhibit experience that allows for multiplayer
 participation, in-depth exploration of a topic, multiple-choice questions,
 and true/false questions.
 
+## System Requirements
+
+### Runtime Requirements
+
+* Microsoft Windows 10 or 11
+
+### Build Requirements
+
+* Unity Editor 2022.3.0 or later
+
+## Installation
+
+1. Download the most recent version of the application from 
+[Releases](https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates/releases)
+2. Extract the ZIP file where you want the application installed
+3. Navigate to the **Application** folder
+4. Open **FAST-Quiz-Show.exe** to run the application
+
+## Documentation
+
+### Changing Activity Settings
+
+1. Navigate to the **Assets** folder
+2. Open *SkinName*-**settings.xml**, such as **Mars-settings.xml**
+3. For information about each setting, see 
+[FAST SDK Reference Documentation](https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK/class_f_a_s_t_1_1_base_settings.html)
+
+### Changing Quiz Settings
+
+1. Navigate to the **Assets** folder
+2. Open *SkinName*-**Quiz-settings.xml**, such as **Mars-Quiz-settings.xml**
+3. The `<Question>` settings define the quiz questions. The top-down 
+order of each `<Question>` will determine the order they are used in the 
+activity.
+    - The `name` must match the same name used in asset files.
+    - The `type` can be `text`, `image`, or `video`.
+        - The `text` type will just show the question as text.
+        - The `image` type will show an image with the question as text.
+        - The `video` type will play the video, then show an image from 
+        the video and the question as text.
+3. The `<Option>` settings define the question answer options to choose 
+from.
+    - The `name` must match the same name used in asset files.
+    - The `slot` determines which button will map to the option, where 
+    the numbers can be [1, 4] corresponding to left-to-right position.
+4. The `<Answer>` settings define which slots have the correct answer to 
+the question. Use more than one `<Answer>` if there are multiple 
+answers.
+    - The `slot` specifies a slot with a correct answer.
+
+### Adding a New Skin
+
+1. Navigate to the **Assets** folder
+2. Copy the folder containing the assets for the new skin
+3. Navigate to the **root** folder where the application is installed
+4. Open **config.xml** and change `<skin>Mars</skin>` to the name of 
+your new skin
+
 ## Notices
 
 Copyright (C) 2024 Museum of Science, Boston
@@ -27,15 +85,34 @@ MIT License for more details.
 You should have received a copy of the MIT License along with this 
 software. If not, see <https://opensource.org/license/MIT>.
 
+`SPDX-License-Identifier: MIT`
+
 ### Media Assets
 
-The media assets (images, videos, audio, etc.) included in this release 
-are EXCLUDED from this software's MIT License and are only permitted for 
-use with this software. The media assets cannot be modified, resold, 
-repurposed, or separated from this software in any way. 
+The media assets (images, videos, audio, etc.) included in a release 
+package (compiled executable of this software with assets) are EXCLUDED 
+from this software's MIT License and are only permitted for use with 
+this software. The media assets cannot be modified, resold, repurposed, 
+or separated from the compiled executable of this software in any way. 
+
+The following media were used to create the Mars skin media assets 
+included in a release package:
+
+| Description | Media Type | Attribution/Credit | 
+| --- | --- | --- |
+| Mars Surface | Image | Stock media from iStock.com/24K-Production |
+| Mars | Image | Stock media from iStock.com/Elen11 |
+| Question 5 - Site A | Image | Media from NASA/JPL |
+| Question 5 - Site B | Image | Media from NASA/JPL-Caltech/Univ. of Arizona |
+| Question 5 - Site C | Image | Media from NASA/JPL-Caltech/Univ. of Arizona |
+| Question 5 - Site D | Image | Media from NASA/JPL |
+| Question 9 - Site A | Image | Media from NASA/JPL-Caltech |
+| Question 9 - Site B | Image | Media from NASA/JPL-Caltech/MSSS |
+| Question 9 - Site C | Image | Media from NASA/JPL |
+| Question 9 - Site D | Image | Media from NASA/JPL-Caltech |
 
 ## End User License Agreement
 
-By downloading or installing this release, you agree to abide by the 
-usage requirements of this software and the media assets that are 
-included.
+By downloading or installing a release package (compiled executable of 
+this software with assets), you agree to abide by the usage requirements 
+of this software and the media assets that are included.
