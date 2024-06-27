@@ -7188,7 +7188,7 @@ GameObject:
   - component: {fileID: 819800784}
   - component: {fileID: 819800783}
   m_Layer: 5
-  m_Name: Trough-Spotlight.png
+  m_Name: Tray-Spotlight.png
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7285,7 +7285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Trough-Spotlight.png
+  baseFileName: Tray-Spotlight.png
   isSharedByAllLanguages: 1
   prefixFileName: 
   suffixFileName: 
@@ -14918,7 +14918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928666227}
   m_Layer: 5
-  m_Name: Trough
+  m_Name: Tray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
