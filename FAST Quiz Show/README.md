@@ -13,6 +13,7 @@ and true/false questions.
 ### Build Requirements
 
 * Unity Editor 2022.3.0 or later
+* [FAST SDK](https://github.com/FAST-Digital-Exhibit-Design/FAST-SDK)
 
 ## Installation
 
