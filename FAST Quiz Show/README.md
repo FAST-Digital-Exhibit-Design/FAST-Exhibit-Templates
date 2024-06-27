@@ -63,6 +63,14 @@ answers.
 4. Open **config.xml** and change `<skin>Mars</skin>` to the name of 
 your new skin
 
+## Contributions
+
+This repo is only maintained with bug fixes and Pull Requests are not accepted 
+at this time. If you'd like to contribute, please post questions and 
+comments about using FAST Exhibit Templates to 
+[Discussions](https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates/discussions) 
+and report bugs using [Issues](https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates/issues).
+
 ## Notices
 
 Copyright (C) 2024 Museum of Science, Boston
