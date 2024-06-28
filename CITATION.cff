@@ -5,9 +5,7 @@ message: >-
   cite it as below.
 type: software
 authors:
-  - name: Museum of Science
-    city: Boston
-    country: US
+  - name: Museum of Science, Boston
     website: 'https://www.mos.org'
 repository-code: >-
   https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates
