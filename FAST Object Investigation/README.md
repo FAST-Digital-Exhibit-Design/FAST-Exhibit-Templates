@@ -1,4 +1,5 @@
 # FAST Object Investigation
+
 A FAST digital exhibit experience that allows for exploration of real
 objects or physical models, identification or classification, and
 learning about a variety of items.
@@ -25,12 +26,17 @@ learning about a variety of items.
 
 ## Documentation
 
+The exemplar included in a release package is preconfigured with the 
+settings needed to run the exhibit experience. The following subsections 
+are for reference if you want to customize the settings, make a new skin, 
+or modify the software.
+
 ### Changing Activity Settings
 
 1. Navigate to the **Assets** folder
 2. Open *SkinName*-**settings.xml**, such as **Geology-settings.xml**
 3. For information about each setting, see 
-[FAST SDK Reference Documentation](https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK/class_f_a_s_t_1_1_base_settings.html)
+[FAST SDK Reference Documentation](https://FAST-Digital-Exhibit-Design.github.io/FAST-SDK-Documentation/class_f_a_s_t_1_1_base_settings.html)
 
 ### Changing Tangible Object Settings
 
