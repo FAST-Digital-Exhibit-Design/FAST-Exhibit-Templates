@@ -33,6 +33,26 @@ comments about using FAST Exhibit Templates to
 [Discussions](https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates/discussions) 
 and report bugs using [Issues](https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates/issues).
 
+## Citation
+
+If you reference this software in a publication, please cite it as follows:
+
+**APA**
+```
+Museum of Science, Boston. FAST Exhibit Templates (Version 1.0.0) [Computer software]. https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates
+```
+
+**BibTeX**
+```
+@software{Museum_of_Science_FAST_Exhibit_Templates,
+author = {{Museum of Science, Boston}},
+license = {MIT},
+title = {{FAST Exhibit Templates}},
+url = {https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates},
+version = {1.0.0}
+}
+```
+
 ## Notices
 
 Copyright (C) 2024 Museum of Science, Boston
