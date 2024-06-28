@@ -7,6 +7,24 @@ create their own FAST tables without having to start from the beginning.
 2. [FAST Quiz Show](https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates/tree/main/FAST%20Quiz%20Show)
 3. [FAST Node Exploration](https://github.com/FAST-Digital-Exhibit-Design/FAST-Exhibit-Templates/tree/main/FAST%20Node%20Exploration)
 
+**What is FAST?**
+
+<ins>F</ins>lexible, <ins>A</ins>ccessible <ins>S</ins>trategies for <ins>T</ins>imely Digital Exhibit Design
+
+Museums play a critical role in engaging their communities around urgent 
+issues that emerge in the public sphere. However, typical exhibit development 
+timelines can stretch for years, and "what's new" can change swiftly before 
+an exhibition is even launched. What if museums could stay agile and dynamic, 
+changing out content as community needs shift, science progresses, and the 
+world changes? What if timely exhibit offerings could be not just efficiently 
+produced, but accessible and welcoming to all visitors? This vision of 
+efficiency and accessibility is at the center of FAST.
+
+For more information about FAST, please see:
+
+* FAST Booklet, an introduction and explination of the FAST project
+* FAST Toolkit, a repository off all assets and documentation published from the FAST project
+
 ## Contributions
 
 This repo is only maintained with bug fixes and Pull Requests are not accepted 
