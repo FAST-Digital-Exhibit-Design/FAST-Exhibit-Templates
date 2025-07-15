@@ -50,12 +50,6 @@
       <scale xyz="0" />
       <size x="0" y="0" />
     </AlignmentRectTransformSettings>
-    <AlignmentRectTransformSettings name="Tracking Area">
-      <position x="0" y="0" z="0" />
-      <rotation z="0" />
-      <scale xyz="0" />
-      <size x="1500" y="1000" />
-    </AlignmentRectTransformSettings>
     <AlignmentRectTransformSettings name="Projector Area Guide">
       <position x="0" y="0" z="0" />
       <rotation z="0" />
@@ -68,24 +62,6 @@
       <scale xyz="0" />
       <size x="1500" y="900" />
     </AlignmentRectTransformSettings>
-    <AlignmentRectTransformSettings name="Camera Area Guide">
-      <position x="0" y="0" z="0" />
-      <rotation z="0" />
-      <scale xyz="0" />
-      <size x="1500" y="1000" />
-    </AlignmentRectTransformSettings>
-    <AlignmentRectTransformSettings name="Tray-Spotlight.png">
-      <position x="0" y="0" z="0" />
-      <rotation z="0" />
-      <scale xyz="0" />
-      <size x="0" y="0" />
-    </AlignmentRectTransformSettings>
-    <AlignmentRectTransformSettings name="Scanner-Spotlight.png">
-      <position x="0" y="0" z="0" />
-      <rotation z="0" />
-      <scale xyz="0" />
-      <size x="0" y="0" />
-    </AlignmentRectTransformSettings>
     <AlignmentRectTransformSettings name="Controls Area Guide">
       <position x="0" y="0" z="0" />
       <rotation z="0" />
@@ -93,6 +69,30 @@
       <size x="1800" y="1200" />
     </AlignmentRectTransformSettings>
     <AlignmentRectTransformSettings name="Scanner Target">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Tracking Area">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="1500" y="1000" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Camera Area Guide">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="1500" y="1000" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Scanner-Spotlight.png">
+      <position x="0" y="0" z="0" />
+      <rotation z="0" />
+      <scale xyz="0" />
+      <size x="0" y="0" />
+    </AlignmentRectTransformSettings>
+    <AlignmentRectTransformSettings name="Tray-Spotlight.png">
       <position x="0" y="0" z="0" />
       <rotation z="0" />
       <scale xyz="0" />
