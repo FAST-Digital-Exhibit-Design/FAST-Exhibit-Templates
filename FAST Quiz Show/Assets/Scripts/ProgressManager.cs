@@ -98,6 +98,9 @@ public class ProgressManager : MonoBehaviour
         GetComponent<Animator>().Play("Hide");
         _totalScore = 0;
         Progress = 0;
+        _normalizedProgress = Progress * 0.01f;
+        progressBarFill.fillAmount = _normalizedProgress;
+        _progressText.text = Progress.ToString() + "%";
         PastMidpoint = false;
     }
     public IEnumerator ShowProgress(QuizPlayer[] activePlayers)
