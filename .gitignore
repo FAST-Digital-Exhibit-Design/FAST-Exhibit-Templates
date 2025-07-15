@@ -79,5 +79,5 @@ ExportedObj/
 # ============ #
 **/Build/*
 !**/Build/Assets/
-**/Build/Assets/*/**/
+**/Build/Assets/**/*.*
 !**/Build/**/*.xml
