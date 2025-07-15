@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <NodeSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <PixelNode name="FenwayPark" x="580" y="920" />
+    <PixelNode name="FenwayPark" x="453" y="682" />
     <GeoNode name="RapaNuiMoai" latitude="-27.12601" longitude="-109.277031" />
     <GeoNode name="SanFelipeDeBarajasCastle" latitude="10.4225" longitude="-75.53927" />
     <GeoNode name="MachuPicchu" latitude="-13.22633" longitude="-72.49732" />
@@ -27,7 +27,6 @@
     <GeoNode name="Uluru" latitude="-25.34442" longitude="131.03688" />
     <GeoNode name="GreatBarrierReef" latitude="-18.28706" longitude="147.699188" />
     <GeoNode name="WaitangiTreatyGrounds" latitude="-35.26775" longitude="174.080719" />
-    <GeoNode name="SriSivaSubramaniyaTemple" latitude="-17.80738" longitude="177.4151" />
     <GeoNode name="PenguinPostOffice" latitude="-64.82518" longitude="-63.49354" />
     <GeoNode name="Sermermiut" latitude="69.2025" longitude="-51.12312" />
     <GeoNode name="LakeLouise" latitude="51.42537" longitude="-116.177254" />
