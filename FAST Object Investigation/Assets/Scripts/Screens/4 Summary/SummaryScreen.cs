@@ -57,11 +57,15 @@ public class SummaryScreen : ActivityScreen
     {
         // Load and initialize
         for (int i = 0; i < infoImages.Length; i++) {
-            audioLUT[$"Feature-{i+1}-Narration.mp3"].baseFileName = string.Format("Feature-{0}-{1}-Narration.mp3",
+            AudioClipFromFile audioClipFromFile = audioLUT[$"Feature-{i + 1}-Narration.mp3"];
+            audioClipFromFile.baseFileName = string.Format("Feature-{0}-{1}-Narration.mp3",
                 i+1, screenManager.teaserName);
-            audioLUT[$"Feature-{i+1}-Narration.mp3"].Load(FAST.Application.language);
-            if (audioLUT[$"Feature-{i+1}-Narration.mp3"].audioClip == null) {
-                audioLUT[$"Feature-{i + 1}-Narration.mp3"].audioClip = AudioClipExtensions.CreatePauseClip(0.01f);
+            if (!audioClipFromFile.IsAssetAvailable(FAST.Application.language)) {
+                audioClipFromFile.baseFileName = "";
+            }
+            audioClipFromFile.Load(FAST.Application.language);
+            if (audioClipFromFile.audioClip == null) {
+                audioClipFromFile.audioClip = AudioClipExtensions.CreatePauseClip(0.01f);
             }
         }
 
@@ -73,6 +77,9 @@ public class SummaryScreen : ActivityScreen
 
         for (int i = 0; i < infoImages.Length; i++) {
             infoImagesFromFile[i].baseFileName = $"Summary-Feature-{i+1}-{screenManager.teaserName}.png";
+            if (!infoImagesFromFile[i].IsAssetAvailable(FAST.Application.language)) {
+                infoImagesFromFile[i].baseFileName = "";
+            }
             infoImagesFromFile[i].Load(FAST.Application.language);
             infoImages[i].CrossFadeAlpha(0f, 0f, false);
         }

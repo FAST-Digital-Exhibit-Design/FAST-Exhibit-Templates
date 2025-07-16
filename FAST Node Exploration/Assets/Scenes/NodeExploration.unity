@@ -517,7 +517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Info.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -2336,7 +2336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e4ee046e1c4fec49adf7c98f6d6c39f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Story.mp4
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 

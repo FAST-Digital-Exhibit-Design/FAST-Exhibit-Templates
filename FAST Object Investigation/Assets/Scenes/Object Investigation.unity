@@ -475,7 +475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Feature-1-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -2585,7 +2585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Summary-Image.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -2810,7 +2810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Feature-3-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -2864,7 +2864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Feature-3-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -3755,7 +3755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Feature-2-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -4444,7 +4444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Teaser-Question-1-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -6005,7 +6005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Summary-Feature-1.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -6339,7 +6339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e4ee046e1c4fec49adf7c98f6d6c39f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Reward-Video.mp4
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -6820,7 +6820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Feature-2-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -8452,7 +8452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Summary-Feature-3.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -8852,7 +8852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Hint-Reminder.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -9188,7 +9188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Hint-Feature-3.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -9771,7 +9771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Teaser-Image.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -9832,7 +9832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Feature-1-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -10586,7 +10586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Hint-Feature-2.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -11148,7 +11148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Teaser-Question-2-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -11487,7 +11487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Hint-Feature-1.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -12593,7 +12593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a17d807b3c575b45ba1451a30e37d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Hint-Incorrect-2-Narration.mp3
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -15343,7 +15343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Teaser-Question-2.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -15690,7 +15690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Hint-Image.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
@@ -16397,7 +16397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331a97178801a04e91ae0273fa04e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFileName: Summary-Feature-2.png
+  baseFileName: 
   isSharedByAllLanguages: 0
   prefixFileName: 
   suffixFileName: 
